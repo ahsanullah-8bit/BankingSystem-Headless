@@ -1,7 +1,7 @@
 Note: This project is a year or two old and is not tested since. I'm just preserving my work.
 
 # Building
-You need to setup Connector/C++ and a local **MySQL**  or a remote server to run this project.
+You need to setup Connector/C++ and a local or a remote **MySQL** server to run this project.
 
 # Interaction of this Project's Classes
 	* Banking Class :
