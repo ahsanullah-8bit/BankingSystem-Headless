@@ -1,7 +1,7 @@
 Note: This project is a year or two old and is not tested since. I'm just preserving my work.
 
 # Building
-You need to setup Connector/C++ and a local or a remote **MySQL** server to run this project.
+You need to setup `Connector/C++ 8.0` and a local or a remote **MySQL** server to run this project. It expects the `Connector/C++` to be in the default windows installation dir as `C:\Program Files\MySQL\Connector C++ 8.0`. Otherwise, you can specifically set the `AdditionalLibraryDirectories`, `AdditionalIncludeDirectories` and `AdditionalDependencies` in the configuration settings.
 
 # Interaction of this Project's Classes
 	* Banking Class :
