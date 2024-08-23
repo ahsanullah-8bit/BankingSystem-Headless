@@ -3,7 +3,7 @@ Note: This project is a year or two old and is not tested since. I'm just preser
 # Building
 You need to setup Connector/C++ and a local **MySQL**  or a remote server to run this project.
 
-# Interaction of this Project Class
+# Interaction of this Project's Classes
 	* Banking Class :
 		* Account Class :
 			* Transaction Class :
