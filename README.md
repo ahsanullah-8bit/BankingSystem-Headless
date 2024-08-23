@@ -1,86 +1,41 @@
+Note: This project is a year or two old and is not tested since. I'm just preserving my work.
+
+# Building
+You need to setup Connector/C++ and a local **MySQL**  or a remote server to run this project.
+
 # Interaction of this Project Class
-	*	Banking Class :
-		*	Account Class :
-			*	Transaction Class :
+	* Banking Class :
+		* Account Class :
+			* Transaction Class :
 	* Database Class :
 
-	1. Banking Class :	Man Interface Program handler
-			*	Sign In()
-			*	Register()
+	1. Banking Class : Man Interface Program handler
+		* Sign In()
+		* Register()
 
 	2. Account Class :	
-			*	Database Object
-			*	Transaction()
-			*	Update Account()
-			*	Delete	Account()
-			*	Display Data()
+		* Database Object
+		* Transaction()
+		* Update Account()
+		* DeleteAccount()
+		* Display Data()
 	
 	3. Transaction	Class :
-			*	Database Ptr;
-			*	Contructor(Database Ptr);
-			*	Deposite()
-			*	WithDraw()
-			*	Transfer()
+		* Database Ptr;
+		* Contructor(Database Ptr);
+		* Deposite()
+		* WithDraw()
+		* Transfer()
 
-	4.	Database Class :
-			*	addRow()
-			*	removeRow()
-			*	updateRowData()
-			*	displayRowData()
-			*
-			*	transaction();
+	4. Database Class :
+		* addRow()
+		* removeRow()
+		* updateRowData()
+		* displayRowData()
+		*
+		* transaction();
 
 
-# Database Schema : bankingsytem_db
-		*	accounts: id, name, phone, email, cash_amount
-		*	transactions: acc_id, from, to, amount, time
-
-	
-			
-# Entities
-* Bank
-* Account
-* Database
-* Transaction
-
-### Their Interaction
-1. **Bank**
-```
-- Database Class
-
-+ Sign in
-+ Sign up
-```
-
-2. **Account**
-```
-- Database Ptr
-
-+ Display Data()
-+ Update Account()
-+ Delete Account()
-+ Transaction()
-```
-
-3. **Database**
-```
-+ addAccount()
-+ checkAccount()
-+ deleteAccount()
-+ updateAccount()
-+ getAccountInfo()
-+ getAllAccounts()
-+ transactionDeposite()
-+ transactionWithDraw()
-+ transactionTransfer()
-```
-
-4. **Transaction**
-```
-- Database Ptr;
-
-+ Contructor(Database Ptr);
-+ Deposite()
-+ WithDraw()
-+ Transfer()
-```
+## Database Schema : bankingsytem_db
+	* accounts: id, name, phone, email, cash_amount
+	* transactions: acc_id, from, to, amount, time
